@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.Header {
+  background-color: #282c34;
+  padding: $space-m;
+
+  display: flex;
+  & * {
+    color: white;
+  }
+}
+
+.NavBar {
+  flex-grow: 1;
+  a {
+    margin-right: $space-s;
+  }
+}
+.Title {
+  flex-grow: 1;
+  display: flex;
+  justify-content: flex-end;
+
+  .AppName {
+    margin: 0;
+    margin-right: $space-m;
+  }
+
+  .Logo {
+    width: 24px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
