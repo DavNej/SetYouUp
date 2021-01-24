@@ -1,0 +1,11 @@
+@import '../../styles/variables';
+
+.Footer {
+  background-color: #282c34;
+  padding: $space-m;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  color: white;
+}
